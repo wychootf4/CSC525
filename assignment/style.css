@@ -1,0 +1,26 @@
+body {
+    background-color: mintcream;
+    color: darkslategray;
+    font-family: Arial, "Times New Roman";
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 600;
+}
+
+a {
+    background-color: bisque;
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+h1 {
+    background-color: darkkhaki;
+    color: cornflowerblue;
+}
