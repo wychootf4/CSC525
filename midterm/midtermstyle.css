@@ -1,0 +1,282 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: 1000px 1200px;
+    background-repeat: no-repeat;
+    font-family: Arial, 'Times New Roman';
+}
+
+#container1 {
+    border: 5px outset darkred;
+    margin: 10px 10px 120px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    widith: 100%;
+    height: 970px;
+}
+
+#container2 {
+    border: 5px outset white;
+    position: absolute;
+    height: 70%;
+    width: 90%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 30px auto 10px;
+}
+
+#title {
+    background-color: red;
+    color: white;
+    font-family: Algerian, sans-serif;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 30%;
+    padding: 5px 3px;
+    text-align: center;
+}
+
+span {
+    color: yellow;
+}
+
+nav {
+    position: absolute;
+    margin: 40px auto 10px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 6%;
+    float: left;
+}
+
+ul {
+    margin: 6px auto;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    width: 50px;
+}
+
+li a {
+    background-color: green;
+    color: white;
+    margin-right: 20px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+#description {
+    font-size: 1.5em;
+    color: brown;
+    background-color: antiquewhite;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 5px;
+}
+
+#bottle {
+    position: relative;
+    width: 35%;
+    height: 22%;
+    border: 2px outset darkslategrey;
+    margin: 20px 0 0 30px;
+}
+
+#bottletext {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+#bottletext h5 {
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif, "Sitka Display";
+    font-weight: bold;
+}
+
+#bottletext p {
+    color: blue;
+    font-family: Garamond, Verdana;
+    font-size: 0.9em;
+    padding-right: 5px;
+}
+
+#bottle img {
+    border: 1px inset gray;
+    float:right;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    right: 5px;
+    width: 40%;
+    height: 80%;
+}
+
+#food {
+    position: relative;
+    width: 35%;
+    height: 22%;
+    border: 2px dotted green;
+    margin: 20px 0 0 30px;
+    left: 25%;
+}
+
+#foodtext {
+    float: right;
+    width: 50%;
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+#foodtext h5 {
+    padding-top: 5px;
+    color: lightcoral;
+    text-align: center;
+    font-family: sans-serif, "Sitka Display";
+}
+
+#foodtext p {
+    color: red;
+    font-family: "Arial Narrow", "Sitka Display";
+    font-size: 0.9em;
+    padding-right: 5px;
+    font-style: italic;
+}
+
+#food img {
+    border: 1px inset gray;
+    float:left;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 40%;
+    height: 80%;
+}
+
+#medicine {
+    position: relative;
+    width: 35%;
+    height: 22%;
+    border: 2px dotted green;
+    margin: 20px 0 0 30px;
+    left: 55%;
+}
+
+#medicinetext {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+#medicinetext h5 {
+    padding-top: 5px;
+    color: deepskyblue;
+    text-align: center;
+    font-family: sans-serif, "Sitka Display";
+}
+
+#medicinetext p {
+    color: blue;
+    font-family: "Arial Black", "Niagara Engraved";
+    font-size: 0.8em;
+    padding-right: 5px;
+    font-style: oblique;
+}
+
+#medicine img {
+    border: 1px inset gray;
+    float: right;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 40%;
+    height: 80%;
+}
+
+hr {
+    position: relative;
+    top: 730px;
+}
+
+.hr1 {
+    width: 40%;
+    height: 4px;
+    background-color: blue;
+}
+
+.hr2 {
+    width: 50%;
+    height: 3px;
+    background-color: red;
+}
+
+#hr3 {
+    width: 60%;
+    height: 5px;
+    background-color: yellow;
+}
+
+#island {
+    position: relative;
+    top: 730px;
+    width: 60%;
+    height: 15%;
+    border: 4px inset green;
+    margin: 0 auto;
+}
+
+#island h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: green;
+    text-weight: bold;
+}
+
+#island dl {
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+#island dl dt {
+    color: brown;
+}
+
+#island dl dd {
+    font-style: italic;
+}
+
+footer {
+    clear: both;
+    color: red;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 1050px;
+}
