@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab19</title>
+    <style type="text/css">
+        @-moz-keyframes example {
+            0% {
+                background-color: green;
+            }
+            50% {
+                background-color: antiquewhite;
+            }
+            100% {
+                background-color: steelblue;
+            }
+        }
+
+        @-o-keyframes example {
+            0% {
+                background-color: green;
+            }
+            50% {
+                background-color: antiquewhite;
+            }
+            100% {
+                background-color: steelblue;
+            }
+        }
+
+        @-webkit-keyframes example {
+            0% {
+                background-color: green;
+            }
+            50% {
+                background-color: antiquewhite;
+            }
+            100% {
+                background-color: steelblue;
+            }
+        }
+
+        @keyframes example {
+            0% {
+                background-color: green;
+            }
+            50% {
+                background-color: antiquewhite;
+            }
+            100% {
+                background-color: steelblue;
+            }
+        }
+
+        #container {
+            width: 400px;
+            height: 200px;
+            margin: 0 auto;
+            -webkit-animation: example 4s infinite;
+            -o-animation: example 4s infinite;
+            animation: example 4s infinite;
+        }
+
+        #sushi {
+            width: 400px;
+            height: 100px;
+            background-color: antiquewhite;
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -ms-transition: all 1s  ease-in-out;
+            -o-transition: all 1s  ease-in-out;
+            transition: all 1s ease-in-out;
+        }
+
+        #sushi:hover {
+            background-color: burlywood;
+            -webkit-transform: rotate(360deg) scale(1.2);
+            -moz-transform: rotate(360deg) scale(1.2);
+            -ms-transform: rotate(360deg) scale(1.2);
+            -o-transform: rotate(360deg) scale(1.2);
+            transform: rotate(360deg) scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <article id="sushi">
+            <p>
+                Sushi is a traditional Japanese food which made
+                of rice and many choice of ingredients rolled with
+                it. We can now order sushi by Internet, phone or
+                order it in-store. Grocery store sushi is convenient
+                to take, but it has fewer choices and not so fresh
+                compared to serious sushi.
+            </p>
+        </article>
+    </div>
+</body>
+</html>

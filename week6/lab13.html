@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab13</title>
+</head>
+<body>
+    <header>Contact Information</header>
+    <section>
+        <form action="http://itu.lewebcafe.com/csc525/form.php" method="post">
+            <fieldset>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone">
+                <br>
+                <label for="website">Website:</label>
+                <input type="url" name="website" id="website">
+                <br>
+                <label for="color">Select your favorite:</label>
+                <input type="color" name="color" id="color">
+                <br>
+                <label for="calendar">Birthday</label>
+                <input type="date" name="birthday" id="calendar">
+                <br>
+                <label for="secondColor">Choose your second favorite:</label>
+                <input type="text" name="secondColor" id="secondColor" list="chooseColor">
+                    <datalist id="chooseColor">
+                        <option value="red">
+                        <option value="green">
+                        <option value="blue">
+                        <option value="black">
+                        <option value="none of above">
+                    </datalist>
+                <br>
+                <label for="comment">Comment:</label>
+                <textarea name="comment" id="comment"></textarea>
+                <br>
+                <input type="submit">
+                <input type="reset">
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
